@@ -1,0 +1,82 @@
+{
+    "shoes":{
+        "product0":{
+            "image":"orangeSneakers.jpg",
+            "name":"Orange Sneakers",
+            "description":"This stylish option is perfect for any occasion. You can never go wrong with something simple yet bold.",
+            "price":"$89.99"
+        },
+        "product1":{
+            "image":"tealRunningShoes.jpg",
+            "name":"Teal Running Shoes",
+            "description":"Need to run that extra mile? Try out this option for a sleek look that will support your form and stamina for longer.",
+            "price":"$116.48"
+        },
+        "product2":{
+            "image":"maroonDressShoes.jpg",
+            "name":"Maroon Dress Shoes",
+            "description":"If you're looking for something a bit more formal, this is the option for you. Our most popular selection for formal events!",
+            "price":"$202.02"
+        }
+    },
+    "shirts":{
+        "product0":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product1":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product2":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        }
+    },
+    "pants":{
+        "product0":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product1":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product2":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        }
+    },
+    "hoodies":{
+        "product0":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product1":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        },
+        "product2":{
+            "image":"",
+            "name":"",
+            "description":"",
+            "price":""
+        }
+    }
+}
