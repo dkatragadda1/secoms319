@@ -46,3 +46,11 @@ function addToCart(productType, productName){
     console.log(cart);
 }
 
+function loadCart(htmlContainerId){
+    let cartList = document.getElementById(htmlContainerId);
+    for(let product of window.cart){
+        let item = document.createElement("li");
+        item.textContent = product.name + " | " + product.price;
+        cartList.appendChild(item);
+    }
+}

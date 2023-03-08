@@ -1,17 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Bakbak One");
 :root{
-    --primary-color: #777777;
-    --secondary-color: #999999;
-    --tertiary-color: #aaaaaa;
-    --content-back: #eeeeee;
+    --primary-color: #6bd7ff;
+    --secondary-color: #6f88db;
+    --tertiary-color: #a3c6d3;
+    --content-back: #c9d7da;
 }
 body{
     margin: 0px;
+    background-color: var(--content-back);
+    color: #0b0138;
 }
 .header{
     max-width: 100%;
     height: 300px;
     mask-image: linear-gradient(#ffffffff,#ffffff77);
-    background-image: url(../images/headerExample.jpg);
+    background-image: url(../images/headerImage.jpg);
     background-position: center;
     overflow:hidden;
     text-align: center;
@@ -31,6 +34,7 @@ body{
     top: 0px;
     left: 0px;
     z-index: 3;
+    font-family: 'BakBak One';
 }
 .menu>a{
     width: 100px;
@@ -38,6 +42,7 @@ body{
     padding: 10px 30px;
     margin: 0px;
     text-align: center;
+    color: #0b0138;
 }
 .menu>a:hover{
     background-color: var(--primary-color);
@@ -75,6 +80,7 @@ body{
     min-height: 10%;
     max-height: 10%;
     z-index: 1;
+    color: #0b0138;
 }
 .footer>#footerLogo{
     width: 50px;
@@ -89,7 +95,11 @@ body{
     border-radius: 5px;
     border: 2px solid var(--primary-color);
     background-color: var(--secondary-color);
+    font-family: 'BakBak One';
 }
 .card-button:hover{
     background-color: var(--primary-color);
+}
+.user-cart{
+    margin-top: 20px;
 }

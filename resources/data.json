@@ -21,62 +21,62 @@
     },
     "shirts":{
         "product0":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"plaidOutdoorShirt.jpg",
+            "name":"Outdoor Plaid",
+            "description":"Something that looks like it belongs on a lumberjack. Now, all you need is the axe and a full beard. ",
+            "price":"$94.93"
         },
         "product1":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"retroSkullTee.jpg",
+            "name":"Retro Skull Tee",
+            "description":"Hopefully yellow is your color. Yellow represents happiness, drastically juxtaposed to the giant skull.",
+            "price":"$67.30"
         },
         "product2":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"blackDressShirt.jpg",
+            "name":"Black Dress Shirt",
+            "description":"Not trying to push you towards anything, but... this shirt would look great with our black suit pants.",
+            "price":"$151.27"
         }
     },
     "pants":{
         "product0":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"redChinoShorts.jpg",
+            "name":"Red Chino Shorts",
+            "description":"A pelican actually stole these shorts from some guy at the local beach. Guaranteed that won't happen twice...",
+            "price":"$68.42"
         },
         "product1":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"blackJeans.png",
+            "name":"Black Jeans",
+            "description":"A simple option that deviates from the typical blue. You may be bad, but you've never looked this good.",
+            "price":"$77.58"
         },
         "product2":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"suitPants.png",
+            "name":"Black Suit Pants",
+            "description":"Soft but sleek, these pants will match well with any black suit jacket. Works perfectly for funerals!",
+            "price":"$120.28"
         }
     },
     "hoodies":{
         "product0":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"knightHoodie.jpg",
+            "name":"Knight Hoodie",
+            "description":"A fun choice for your knight without shining armor. This is definitely the next best thing, though. (Lance not included).",
+            "price":"$99.99"
         },
         "product1":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"blackRainHoodie.jpg",
+            "name":"Black Rain Hoodie",
+            "description":"A sleek, water resistant that will keep you dry during the heaviest of thunderstorms. Not to mention, it looks amazing.",
+            "price":"$68.99"
         },
         "product2":{
-            "image":"",
-            "name":"",
-            "description":"",
-            "price":""
+            "image":"grayCarharttHoodie.jpg",
+            "name":"Gray Carhartt",
+            "description":"Heavy duty but still soft to the touch. A great choice for the do-ers in life, who need a hoodie that will keep up with them.",
+            "price":"$102.89"
         }
     }
 }

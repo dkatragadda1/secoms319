@@ -6,6 +6,7 @@
       <title>Home</title>
 
       <link href="../resources/css/styles.css" rel="stylesheet">
+      
       <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
       <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
       <link href="../resources/css/sidebars.css" rel="stylesheet">
@@ -88,9 +89,15 @@
           overflow: hidden;
           background-position: center;
           background-repeat: no-repeat;
-          background-size: auto;
+          background-size: contain;
         }
       </style>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          loadCart("cart-items");
+        });
+      </script>
     </head>
     <body>
       <nav class="menu">
@@ -221,8 +228,8 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Shoe Collection</h1>
-            <p class="lead text-muted">See our collection of top-of-the-line shoe options below!</p>
+            <h1 class="fw-light">Boots Down The House</h1>
+            <p class="lead text-muted">Browse all sorts of clothing options that meet <i>your</i> tastes!</p>
           </div>
         </div>
       </section>
@@ -230,31 +237,55 @@
       <div class="album py-5 bg-light">
         <div class="container">
     
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img style="background-image: url(../images/orange-shoes.jpg);">
                 <div class="card-body">
-                  <h2 class="card-text">Orange Sneakers</h2>
-                  <p class="card-text">This stylish option is perfect for any occasion. You can never go wrong with something simple yet bold.<br>$89.99</p>
+                  <h2 class="card-text">Shoes</h2>
+                  <p class="card-text">Get your kicks from our top-of-the-line shoe collection!</p>
+                  <button class="card-button" onclick="window.open('./shoes.html','_self')">Browse</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img style="background-image: url(../images/teal-shoes.jpg);">
                 <div class="card-body">
-                  <h2 class="card-text">Teal Running Shoes</h2>
-                  <p class="card-text">Need to run that extra mile? Try out this option for a sleek look that will support your form and stamina for longer.<br>$116.48</p>
+                  <h2 class="card-text">Browse Shirts</h2>
+                  <p class="card-text">Shirts that come in all shapes, sizes, and designs!</p>
+                  <button class="card-button" onclick="window.open('./shirts.html','_self')">Browse</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img style="background-image: url(../images/converse-shoes.jpg);">
                 <div class="card-body">
-                  <h2 class="card-text">Black Converse</h2>
-                  <p class="card-text">Some may consider these the peak of fashion. Especially popular with the younger crowd, these shoes are a straightforward, stylish pick.<br>$108.00</p>
+                  <h2 class="card-text">Browse Pants</h2>
+                  <p class="card-text">Simple, stylish, <br>necessary.</p>
+                  <button class="card-button" onclick="window.open('./pants.html','_self')">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-text">Browse Hoodies</h2>
+                  <p class="card-text">Whether for rain, wind, or shine, we have an option for you!</p>
+                  <button class="card-button" onclick="window.open('./hoodies.html','_self')">Browse</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-cart">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-1 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-text">Your Cart</h2>
+                  <ul id="cart-items">
+                    
+                  </ul>
                 </div>
               </div>
             </div>
@@ -264,7 +295,7 @@
 
       <section class="footer">
           <img id="footerLogo">
-          <p style="width:auto;text-align:center;">Company Name<br><a href="mailto:contactus@companyname.com">contactus@companyname.com</a></p>
+          <p style="width:auto;text-align:center;">Boots Down The House<br><a href="mailto:wwinters@iastate.edu">contactus@bootsdownthehouse.com</a></p>
       </section>
   </body>
 </html>
